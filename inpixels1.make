@@ -1,5 +1,5 @@
-api = 2
 core = 7.x
+api = 2
 
 ; BOA enahced Drupal 7:
 projects[drupal][type] = "core"
