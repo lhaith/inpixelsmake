@@ -12,10 +12,12 @@ projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.35.1.tar.
 projects[radix] = 3.0-rc2
 projects[radix_stanley] = 1.2
 projects[unary] = 1.x-dev
+projects[adminimal_theme] =  1.21
 projects[tweme] = 1.4-alpha1
 projects[bootstrap] = 3.x-dev
 projects[startupgrowth_lite] = 1.0
 projects[scholarly_lite] = 1.0
+
 
 ; modules
 projects[views] = 3.11
