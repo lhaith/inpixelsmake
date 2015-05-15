@@ -1,31 +1,36 @@
 core = 7.x
 api = 2
 
-; BOA enahced Drupal 7:
+; BOA enhanced Drupal 7
 projects[drupal][type] = "core"
 projects[drupal][download][type] = "get"
 projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.35.1.tar.gz"
 
 ; libraries
+libraries[backbone][directory_name] = backbone
+libraries[backbone][download][type] = get
+libraries[backbone][download][url] = https://github.com/documentcloud/backbone/archive/master.zip
+
+libraries[underscore][directory_name] = underscore
+libraries[underscore][download][type] = get
+libraries[underscore][download][url] = https://github.com/documentcloud/underscore/archive/master.zip
+
+libraries[modernizr][directory_name] = modernizr
+libraries[modernizr][download][type] = get
+libraries[modernizr][download][url] = https://github.com/drupalprojects/navbar/archive/7.x-1.x.zip
 
 ; themes
-projects[radix] = 3.0-rc2
-projects[radix_stanley] = 1.2
-projects[unary] = 1.x-dev
+
 projects[adminimal_theme] =  1.21
 projects[tweme] = 1.4-alpha1
 projects[bootstrap] = 3.x-dev
-projects[startupgrowth_lite] = 1.0
 projects[scholarly_lite] = 1.0
-
+projects[ember] = 2.0-alpha3
+projects[gratis] = 2.8
 
 ; modules
 projects[views] = 3.11
 projects[ctools] = 1.7
-projects[radix_core] = 3.x-dev
-projects[radix_admin] = 3.x-dev
-projects[radix_colorizer] = 1.x-dev
-projects[radix_views] = 1.0
 projects[jquery_update] = 2.5
 projects[colorizer] = 1.7
 projects[formblock] = 1.0-alpha1
@@ -39,20 +44,9 @@ projects[metatag] = 1.4
 projects[sharethis] = 2.10
 projects[token] = 1.6
 projects[xmlsitemap] = 2.2
-projects[void_menu] = 1.9
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+projects[pathauto] = 1.x-dev
+projects[globalredirect] =  1.x-dev
+projects[imageblock] =  1.3
+projects[block_class] =  2.1
+projects[blockify] = 1.2
 
