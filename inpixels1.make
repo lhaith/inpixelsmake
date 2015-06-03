@@ -19,6 +19,17 @@ libraries[modernizr][directory_name] = modernizr
 libraries[modernizr][download][type] = get
 libraries[modernizr][download][url] = https://github.com/drupalprojects/navbar/archive/7.x-1.x.zip
 
+; Cloudinary PHP SDK
+libraries[cloudinary][download][type]= "git"
+libraries[cloudinary][download][url] = "https://github.com/cloudinary/cloudinary_php.git"
+libraries[cloudinary][download][tag] = "1.0.17"
+libraries[cloudinary][directory_name] = "cloudinary"
+
+; Predis
+libraries[predis][download][type]= "get"
+libraries[predis][download][url] = "https://github.com/nrk/predis/archive/v0.8.5.zip"
+libraries[predis][directory_name] = "predis"
+
 ; themes
 
 projects[adminimal_theme] =  1.21
@@ -49,4 +60,5 @@ projects[globalredirect] =  1.x-dev
 projects[imageblock] =  1.3
 projects[block_class] =  2.1
 projects[blockify] = 1.2
+projects[] = cloudinary
 
