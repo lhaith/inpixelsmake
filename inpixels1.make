@@ -33,7 +33,7 @@ libraries[predis][directory_name] = "predis"
 ; themes
 
 projects[adminimal_theme] =  1.21
-projects[tweme] = 1.4-alpha1
+projects[tweme] = 3.0-alpha7
 projects[bootstrap] = 3.x-dev
 projects[scholarly_lite] = 1.0
 projects[ember] = 2.0-alpha3
