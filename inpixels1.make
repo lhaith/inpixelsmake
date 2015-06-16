@@ -30,6 +30,10 @@ libraries[predis][download][type]= "get"
 libraries[predis][download][url] = "https://github.com/nrk/predis/archive/v0.8.5.zip"
 libraries[predis][directory_name] = "predis"
 
+; Radix
+projects[radix_core][version] = 3.x-dev
+projects[radix_core][subdir] = contrib
+
 ; themes
 
 projects[adminimal_theme] =  1.21
@@ -38,6 +42,7 @@ projects[bootstrap] = 3.x-dev
 projects[scholarly_lite] = 1.0
 projects[ember] = 2.0-alpha3
 projects[gratis] = 2.8
+projects[radix_stanley] =  1.2
 
 ; modules
 projects[views] = 3.11
