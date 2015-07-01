@@ -43,6 +43,7 @@ projects[scholarly_lite] = 1.0
 projects[ember] = 2.0-alpha3
 projects[gratis] = 2.8
 projects[radix_stanley] =  1.2
+projects[color_glass] =  1.0
 
 ; modules
 projects[views] = 3.11
@@ -66,4 +67,8 @@ projects[imageblock] =  1.3
 projects[block_class] =  2.1
 projects[blockify] = 1.2
 projects[] = cloudinary
+projects[menu_attributes] = 1.0-rc3
+projects[field_formatter_class] = 1.1
+projects[fences] = 1.0
+projects[field_group] = 1.3
 
