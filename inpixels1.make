@@ -7,6 +7,13 @@ projects[drupal][download][type] = "get"
 projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.35.1.tar.gz"
 
 ; libraries
+
+projects[wysiwyg][patch][1853550] = http://drupal.org/files/wyiwyg-support_v4_ckeditor-1853550-42.patch
+ 
+libraries[ckeditor][download][type] = file
+libraries[ckeditor][download][url] =  http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0.1/ckeditor_4.0.1_full.zip
+libraries[ckeditor][download][md5] = d47c37acf2d03ffe6ad39f55e00b099b
+
 libraries[backbone][directory_name] = backbone
 libraries[backbone][download][type] = get
 libraries[backbone][download][url] = https://github.com/documentcloud/backbone/archive/master.zip
