@@ -85,4 +85,6 @@ projects[context] = 3.6
 projects[advanced_help] = 1.3
 projects[field_formatter_settings] = 1.1
 projects[entity] = 1.6
+projects[views_responsive_grid] = 1.3
+projects[views_bootstrap] = 3.1
 
