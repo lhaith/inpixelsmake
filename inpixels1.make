@@ -6,26 +6,6 @@ projects[drupal][type] = "core"
 projects[drupal][download][type] = "get"
 projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.35.1.tar.gz"
 
-; libraries
-
-projects[wysiwyg][patch][1853550] = http://drupal.org/files/wyiwyg-support_v4_ckeditor-1853550-42.patch
- 
-libraries[ckeditor][download][type] = file
-libraries[ckeditor][download][url] =  http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.0.1/ckeditor_4.0.1_full.zip
-libraries[ckeditor][download][md5] = d47c37acf2d03ffe6ad39f55e00b099b
-
-libraries[backbone][directory_name] = backbone
-libraries[backbone][download][type] = get
-libraries[backbone][download][url] = https://github.com/documentcloud/backbone/archive/master.zip
-
-libraries[underscore][directory_name] = underscore
-libraries[underscore][download][type] = get
-libraries[underscore][download][url] = https://github.com/documentcloud/underscore/archive/master.zip
-
-libraries[modernizr][directory_name] = modernizr
-libraries[modernizr][download][type] = get
-libraries[modernizr][download][url] = https://github.com/drupalprojects/navbar/archive/7.x-1.x.zip
-
 ; Cloudinary PHP SDK
 libraries[cloudinary][download][type]= "git"
 libraries[cloudinary][download][url] = "https://github.com/cloudinary/cloudinary_php.git"
@@ -88,3 +68,25 @@ projects[entity] = 1.6
 projects[views_responsive_grid] = 1.3
 projects[views_bootstrap] = 3.1
 
+; libraries
+
+libraries[ckeditor][download][type] = get
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.2/ckeditor_3.6.2.tar.gz"
+libraries[ckeditor][destination] = libraries
+libraries[ckeditor][directory_name] = ckeditor
+libraries[ckeditor][patch][] = "http://drupal.org/files/1337004-ckeditor-remove-samples-3.patch"
+
+libraries[backbone][download][type] = get
+libraries[backbone][download][url] = https://github.com/documentcloud/backbone/archive/master.zip
+libraries[backbone][destination] = libraries
+libraries[backbone][directory_name] = backbone
+
+libraries[underscore][download][type] = get
+libraries[underscore][download][url] = https://github.com/documentcloud/underscore/archive/master.zip
+libraries[underscore][destination] = libraries
+libraries[underscore][directory_name] = underscore
+
+libraries[modernizr][download][type] = get
+libraries[modernizr][download][url] = https://github.com/drupalprojects/navbar/archive/7.x-1.x.zip
+libraries[modernizr][destination] = libraries
+libraries[modernizr][directory_name] = modernizr
