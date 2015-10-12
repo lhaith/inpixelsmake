@@ -15,7 +15,7 @@ projects[scholarly_lite] = 1.0
 projects[startupgrowth_lite] = 1.0
 projects[radix_stanley] = 1.2
 projects[color_glass] = 1.0
-projects[tweme] = 3.0-beta5
+projects[tweme] = 3.x-dev
 
 ; modules
 projects[views] = 3.11
