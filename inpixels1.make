@@ -12,9 +12,9 @@ projects[adminimal_theme] = 1.22
 projects[ember] = 2.0-alpha3
 projects[bootstrap] = 3.x-dev
 projects[scholarly_lite] = 1.0
+projects[startupgrowth_lite] = 1.0
 projects[radix_stanley] = 1.2
 projects[color_glass] = 1.0
-projects[tweme] = 3.0-beta5
 
 ; modules
 projects[views] = 3.11
