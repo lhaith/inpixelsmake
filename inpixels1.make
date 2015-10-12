@@ -8,15 +8,13 @@ projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.35.1.tar.
 
 ; themes
 
-projects[adminimal_theme] =  1.22
+projects[adminimal_theme] = 1.22
 projects[ember] = 2.0-alpha3
-
-projects[tweme] = -3.0-beta5
 projects[bootstrap] = 3.x-dev
 projects[scholarly_lite] = 1.0
-projects[gratis] = 2.8
-projects[radix_stanley] =  1.2
-projects[color_glass] =  1.0
+projects[radix_stanley] = 1.2
+projects[color_glass] = 1.0
+projects[tweme] = 3.0-beta5
 
 ; modules
 projects[views] = 3.11
@@ -35,9 +33,9 @@ projects[sharethis] = 2.12
 projects[token] = 1.x-dev
 projects[xmlsitemap] = 2.2
 projects[pathauto] = 1.x-dev
-projects[globalredirect] =  1.x-dev
-projects[imageblock] =  1.3
-projects[block_class] =  2.1
+projects[globalredirect] = 1.x-dev
+projects[imageblock] = 1.3
+projects[block_class] = 2.1
 projects[blockify] = 1.2
 projects[cloudinary] = 1.2
 projects[menu_attributes] = 1.0-rc3
