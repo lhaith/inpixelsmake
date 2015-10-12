@@ -11,7 +11,7 @@ projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.35.1.tar.
 projects[adminimal_theme] =  1.22
 projects[ember] = 2.0-alpha3
 
-projects[tweme] = 7.x-3.0-beta5
+projects[tweme] = 3.0-beta5
 projects[bootstrap] = 3.x-dev
 projects[scholarly_lite] = 1.0
 projects[gratis] = 2.8
