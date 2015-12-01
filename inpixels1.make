@@ -4,37 +4,35 @@ api = 2
 ; BOA enhanced Drupal 7
 projects[drupal][type] = "core"
 projects[drupal][download][type] = "get"
-projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.35.1.tar.gz"
+projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.41.1.tar.gz"
 
 ; themes
 
-projects[adminimal_theme] = 1.22
-projects[ember] = 2.0-alpha3
+projects[adminimal_theme] = 1.23
+projects[ember] = 2.0-alpha4
 projects[bootstrap] = 3.x-dev
 projects[scholarly_lite] = 1.0
 projects[startupgrowth_lite] = 1.0
-projects[radix_stanley] = 1.2
-projects[color_glass] = 1.0
 projects[tweme] = 3.x-dev
 
-; modules
-projects[views] = 3.11
-projects[ctools] = 1.9
-projects[jquery_update] = 2.5
-projects[colorizer] = 1.7
-projects[formblock] = 1.0-alpha1
-projects[fontyourface] = 2.8
-projects[fontawesome] = 2.1
-projects[backup_migrate] = 3.1
-projects[css_injector] = 1.10
+; modules seo
 projects[google_analytics] = 2.1
-projects[httpbl] = 1.0
 projects[metatag] = 1.7
 projects[sharethis] = 2.12
-projects[token] = 1.x-dev
 projects[xmlsitemap] = 2.2
 projects[pathauto] = 1.x-dev
 projects[globalredirect] = 1.x-dev
+
+; modules 
+projects[views] = 3.13
+projects[ctools] = 1.9
+projects[jquery_update] = 2.5
+projects[fontyourface] = 2.8
+projects[fontawesome] = 2.5
+projects[backup_migrate] = 3.1
+projects[css_injector] = 1.10
+projects[httpbl] = 1.0
+projects[token] = 1.x-dev
 projects[imageblock] = 1.3
 projects[block_class] = 2.1
 projects[blockify] = 1.2
@@ -51,6 +49,7 @@ projects[context] = 3.6
 projects[advanced_help] = 1.3
 projects[entity] = 1.6
 projects[views_bootstrap] = 3.1
+projects{ds} = 2.11
 
 ; libraries
 
@@ -86,6 +85,7 @@ libraries[predis][download][type]= "get"
 libraries[predis][download][url] = "https://github.com/nrk/predis/archive/v0.8.5.zip"
 libraries[predis][directory_name] = "predis"
 
-; Radix
-projects[radix_core][version] = 3.x-dev
-projects[radix_core][subdir] = contrib
+; Font Awesome
+libraries[fontawesome][download][type]= "get"
+libraries[fontawesome][download][url] = "https://github.com/FortAwesome/Font-Awesome/archive/master.zip"
+libraries[fontawesome][directory_name] = "fontawesome"
