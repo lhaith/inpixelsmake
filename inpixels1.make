@@ -50,6 +50,8 @@ projects[advanced_help] = 1.3
 projects[entity] = 1.6
 projects[views_bootstrap] = 3.1
 projects{ds} = 2.11
+projects{mailsystem} = 2.34
+projects{mandrill} = 2.2
 
 ; libraries
 
@@ -89,3 +91,9 @@ libraries[predis][directory_name] = "predis"
 libraries[fontawesome][download][type]= "get"
 libraries[fontawesome][download][url] = "https://github.com/FortAwesome/Font-Awesome/archive/master.zip"
 libraries[fontawesome][directory_name] = "fontawesome"
+
+; mandrill
+libraries[mandrill][download][type] = "get"
+libraries[mandrill][download][url] = "https://bitbucket.org/mailchimp/mandrill-api-php/get/1.0.52.tar.gz"
+libraries[mandrill][directory_name] = "mandrill"
+libraries[mandrill][destination] = "libraries"
