@@ -50,6 +50,8 @@ projects[advanced_help] = 1.3
 projects[entity] = 1.6
 projects[views_bootstrap] = 3.1
 projects{ds} = 2.11
+projects{ds_bootstrap_layouts} = 3.1
+projects{entityreference} = 1.1
 projects{mailsystem} = 2.34
 projects{mandrill} = 2.2
 
