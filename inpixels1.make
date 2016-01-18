@@ -52,6 +52,8 @@ projects[views_bootstrap] = 3.1
 projects{entityreference} = 1.1
 projects{mailsystem} = 2.34
 projects{mandrill} = 2.2
+projects{link} = 1.4
+projects{linkit} = 3.5
 
 ; libraries
 
