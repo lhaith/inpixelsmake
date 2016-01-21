@@ -52,6 +52,7 @@ projects[views_bootstrap] = 3.x-dev
 projects[entityreference] = 1.1
 projects[mailsystem] = 2.34
 projects[mandrill] = 2.2
+projects[mailchimp] = 3.6
 projects[link] = 1.4
 projects[linkit] = 3.5
 
@@ -99,3 +100,10 @@ libraries[mandrill][download][type] = "get"
 libraries[mandrill][download][url] = "https://bitbucket.org/mailchimp/mandrill-api-php/get/1.0.52.tar.gz"
 libraries[mandrill][directory_name] = "mandrill"
 libraries[mandrill][destination] = "libraries"
+
+; mailchimp
+libraries[mailchimp][download][type] = "get"
+libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.4.zip
+libraries[mailchimp][directory_name] = "mailchimp"
+libraries[mailchimp][destination] = "libraries"
+
