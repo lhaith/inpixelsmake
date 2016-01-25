@@ -21,6 +21,7 @@ projects[metatag] = 1.8
 projects[sharethis] = 2.12
 projects[xmlsitemap] = 2.2
 projects[pathauto] = 1.x-dev
+projects[redirect] = 1.0-rc3
 projects[globalredirect] = 1.x-dev
 
 ; modules 
