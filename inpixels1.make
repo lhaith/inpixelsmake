@@ -18,13 +18,14 @@ projects[tweme] = 3.x-dev
 ; modules seo
 projects[google_analytics] = 2.1
 projects[metatag] = 1.8
-projects[sharethis] = 2.12
+projects[socbutt] = 1.5
 projects[xmlsitemap] = 2.2
 projects[pathauto] = 1.x-dev
 projects[redirect] = 1.0-rc3
 projects[globalredirect] = 1.x-dev
 
 ; modules 
+projects[set_front_page] = 1.0
 projects[libraries] = 2.2
 projects[views] = 3.13
 projects[ctools] = 1.9
