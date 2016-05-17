@@ -7,13 +7,59 @@ projects[drupal][download][type] = "get"
 projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.41.1.tar.gz"
 
 ; themes
-
 projects[adminimal_theme] = 1.23
 projects[ember] = 2.0-alpha4
 projects[bootstrap] = 3.x-dev
 projects[scholarly_lite] = 1.1
 projects[startupgrowth_lite] = 1.0
 projects[tweme] = 3.x-dev
+
+; modules 
+projects[libraries] = 2.3
+projects[views] = 3.13
+projects[ctools] = 1.9
+projects[jquery_update] = 2.7
+projects[backup_migrate] = 3.1
+projects[httpbl] = 1.0
+projects[token] = 1.x-dev
+projects[cloudinary] = 1.2
+projects[menu_attributes] = 1.0
+projects[module_filter] = 2.0
+projects[context] = 3.6
+projects[advanced_help] = 1.3
+projects[entity] = 1.7
+projects[entityform] = 2.0-rc1
+projects[rules] = 2.9
+projects[entityreference] = 1.1
+projects[navbar] = 1.7
+projects[features] = 2.10
+
+; user content
+projects[set_front_page] = 1.0
+projects[ckeditor] = 1.17
+projects[ckeditor_widgets] = 1.0-alpha3
+projects[link] = 1.4
+projects[linkit] = 3.5
+projects[imageblock] = 1.3
+
+; user interaction
+projects[mailsystem] = 2.34
+projects[mandrill] = 2.2
+projects[mailchimp] = 3.6
+
+; styling
+projects[fences] = 1.2
+projects[field_group] = 1.5
+projects[field_formatter_settings] = 1.1
+projects[field_formatter_class] = 1.1
+projects[block_class] = 2.3
+projects[fontyourface] = 2.8
+projects[fontawesome] = 2.5
+projects[css_injector] = 1.10
+projects[views_bootstrap] = 3.x-dev
+
+; Speed and cache
+projects[redis][version] = 3.11
 
 ; modules seo
 projects[google_analytics] = 2.1
@@ -24,46 +70,7 @@ projects[pathauto] = 1.x-dev
 projects[redirect] = 1.0-rc3
 projects[globalredirect] = 1.x-dev
 
-; modules 
-projects[set_front_page] = 1.0
-projects[libraries] = 2.2
-projects[views] = 3.13
-projects[ctools] = 1.9
-projects[jquery_update] = 2.7
-projects[fontyourface] = 2.8
-projects[fontawesome] = 2.5
-projects[backup_migrate] = 3.1
-projects[css_injector] = 1.10
-projects[httpbl] = 1.0
-projects[token] = 1.x-dev
-projects[imageblock] = 1.3
-projects[block_class] = 2.3
-projects[blockify] = 1.2
-projects[cloudinary] = 1.2
-projects[menu_attributes] = 1.0-rc3
-projects[fences] = 1.2
-projects[field_group] = 1.5
-projects[field_formatter_settings] = 1.1
-projects[field_formatter_class] = 1.1
-projects[module_filter] = 2.0
-projects[wysiwyg] = 2.2
-projects[context] = 3.6
-projects[advanced_help] = 1.3
-projects[entity] = 1.6
-projects[views_bootstrap] = 3.x-dev
-projects[entityreference] = 1.1
-projects[mailsystem] = 2.34
-projects[mandrill] = 2.2
-projects[mailchimp] = 3.6
-projects[link] = 1.4
-projects[linkit] = 3.5
-projects[navbar] = 1.7
-
-; Speed and cache
-projects[redis][version] = 3.11
-
 ; libraries
-
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.2/ckeditor_3.6.2.tar.gz"
 libraries[ckeditor][destination] = "libraries"
