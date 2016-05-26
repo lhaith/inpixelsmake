@@ -4,7 +4,7 @@ api = 2
 ; BOA enhanced Drupal 7
 projects[drupal][type] = "core"
 projects[drupal][download][type] = "get"
-projects[drupal][download][url] = "http://files.aegir.cc/core/drupal-7.41.1.tar.gz"
+projects[drupal][download][url] = "https://github.com/omega8cc/7x/archive/7.43.2.tar.gz"
 
 ; themes
 projects[adminimal_theme] = 1.23
@@ -26,7 +26,7 @@ projects[cloudinary] = 1.2
 projects[menu_attributes] = 1.0
 projects[module_filter] = 2.0
 projects[context] = 3.6
-projects[advanced_help] = 1.3
+projects[custom_help_text] = 1.3
 projects[entity] = 1.7
 projects[entityform] = 2.0-rc1
 projects[rules] = 2.9
@@ -38,7 +38,6 @@ projects[features] = 2.10
 projects[set_front_page] = 1.0
 projects[ckeditor] = 1.17
 projects[ckeditor_widgets] = 1.0-alpha3
-projects[link] = 1.4
 projects[linkit] = 3.5
 projects[imageblock] = 1.3
 
@@ -53,6 +52,7 @@ projects[field_group] = 1.5
 projects[field_formatter_settings] = 1.1
 projects[field_formatter_class] = 1.1
 projects[block_class] = 2.3
+projects[less] = 4.0
 projects[fontyourface] = 2.8
 projects[fontawesome] = 2.5
 projects[css_injector] = 1.10
