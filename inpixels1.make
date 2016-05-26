@@ -7,7 +7,7 @@ projects[drupal][download][type] = "get"
 projects[drupal][download][url] = "https://github.com/omega8cc/7x/archive/7.43.2.tar.gz"
 
 ; themes
-projects[adminimal_theme] = 1.23
+projects[adminimal_theme] = 1.24
 projects[ember] = 2.0-alpha4
 projects[bootstrap] = 3.x-dev
 projects[scholarly_lite] = 1.1
@@ -33,6 +33,8 @@ projects[rules] = 2.9
 projects[entityreference] = 1.1
 projects[navbar] = 1.7
 projects[features] = 2.10
+projects[configuration] = 2.0-alpha3
+projects[Xautoload] = 5.7
 
 ; user content
 projects[set_front_page] = 1.0
@@ -71,11 +73,6 @@ projects[redirect] = 1.0-rc3
 projects[globalredirect] = 1.x-dev
 
 ; libraries
-libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.2/ckeditor_3.6.2.tar.gz"
-libraries[ckeditor][destination] = "libraries"
-libraries[ckeditor][directory_name] = "ckeditor"
-libraries[ckeditor][patch][] = "http://drupal.org/files/1337004-ckeditor-remove-samples-3.patch"
 
 libraries[backbone][download][type] = "get"
 libraries[backbone][download][url] = "https://github.com/documentcloud/backbone/archive/master.zip"
@@ -88,7 +85,7 @@ libraries[underscore][destination] = "libraries"
 libraries[underscore][directory_name] = "underscore"
 
 libraries[modernizr][download][type] = "get"
-libraries[modernizr][download][url] = "https://github.com/drupalprojects/navbar/archive/7.x-1.x.zip"
+libraries[modernizr][download][url] = "https://github.com/malberts/navbar-modernizr-min/archive/master.zip"
 libraries[modernizr][destination] = "libraries"
 libraries[modernizr][directory_name] = "modernizr"
 
