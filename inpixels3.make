@@ -113,6 +113,7 @@ libraries[fontawesome][destination] = "libraries"
 libraries[fontawesome][directory_name] = "fontawesome"
 
 ; Ridiculously Responsive Social Share Buttons
+libraries[rrssb][download][type]= "get"
 libraries[rrssb][download][url] = "https://github.com/kni-labs/rrssb/archive/1.8.1.zip"
 libraries[rrssb][destination] = "libraries"
 libraries[rrssb][directory_name] = "rrssb"
