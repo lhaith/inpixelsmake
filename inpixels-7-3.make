@@ -8,23 +8,23 @@ projects[drupal][download][url] = "https://github.com/omega8cc/7x/archive/7.56.1
 
 ; themes
 projects[adminimal_theme] = 1.24
-projects[ember] = 2.0-alpha4
 projects[bootstrap] = 3.x-dev
+projects[tweme] = 3.0-beta5
 projects[scholarly_lite] = 1.1
 projects[startupgrowth_lite] = 1.0
-projects[tweme] = 3.0-beta5
+projects[sunrise] = 1.1
+projects[bootstrap_business] = 1.1
 
 ; modules system
 projects[libraries] = 2.3
 projects[ctools] = 1.12
 projects[jquery_update] = 2.7
-projects[backup_migrate] = 3.1
+projects[backup_migrate] = 3.2
 projects[httpbl] = 1.0
 projects[token] = 1.x-dev
 projects[token_filter] = 1.x-dev
 projects[module_filter] = 2.1
 projects[context] = 3.7
-projects[custom_help_text] = 1.3
 projects[rules] = 2.10
 projects[navbar] = 1.7
 
@@ -54,19 +54,21 @@ projects[block_class] = 2.3
 projects[less] = 3.0
 projects[fontyourface] = 2.8
 projects[fontawesome] = 2.6
+projects[linkicon] = 1.2
 projects[icon] = 1.0
 projects[ckeditor_filter] = 1.2
 projects[simplehtmldom] = 2.1
 projects[cpn] = 1.7
-projects[views_bootstrap] = 3.x-dev
+projects[views_bootstrap] = 3.2
 projects[taxonomy_bootstrap_accordion] = 1.0
 projects[menu_attributes] = 1.0
 
-; modules seo
-projects[google_tag] = 1.2
+; modules seo & marketing
+projects[google_tag] = 1.3
+projects[dataLayer] = 1.1
 projects[metatag] = 1.22
-projects[socbutt] = 1.5
-projects[rrssb] = 1.0
+projects[socbutt] = 1.6
+projects[rrssb] = 2.1
 projects[xmlsitemap] = 2.3
 projects[pathauto] = 1.x-dev
 projects[redirect] = 1.0-rc3
@@ -94,12 +96,6 @@ libraries[cloudinary][download][url] = "https://github.com/cloudinary/cloudinary
 libraries[cloudinary][download][tag] = "1.0.17"
 libraries[cloudinary][directory_name] = "cloudinary"
 
-; Less
-libraries[lessphp][download][type]= "get"
-libraries[lessphp][download][url] = "https://github.com/oyejorge/less.php/archive/v1.7.0.10.tar.gz"
-libraries[lessphp][destination] = "libraries"
-libraries[lessphp][directory_name] = "lessphp"
-
 ; simplehtmldom API
 libraries[simplehtmldom][download][type]= "get"
 libraries[simplehtmldom][download][url] = "http://netassist.dl.sourceforge.net/project/simplehtmldom/simplehtmldom/1.5/simplehtmldom_1_5.zip"
@@ -113,7 +109,7 @@ libraries[fontawesome][destination] = "libraries"
 libraries[fontawesome][directory_name] = "fontawesome"
 
 ; Ridiculously Responsive Social Share Buttons
-libraries[rrssb][download][type]= "get"
-libraries[rrssb][download][url] = "https://github.com/kni-labs/rrssb/archive/1.8.1.zip"
+libraries[rrssb][download][type]= "git"
+libraries[rrssb][download][url] = "https://github.com/AdamPS/rrssb-plus.git"
 libraries[rrssb][destination] = "libraries"
-libraries[rrssb][directory_name] = "rrssb"
+libraries[rrssb][directory_name] = "rrssb-plus"
