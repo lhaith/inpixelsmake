@@ -51,6 +51,7 @@ projects[field_group] = 1.5
 projects[field_formatter_settings] = 1.1
 projects[field_formatter_class] = 1.1
 projects[block_class] = 2.3
+projects[fieldblock] = 1.4
 projects[less] = 3.0
 projects[fontyourface] = 2.8
 projects[fontawesome] = 2.6
