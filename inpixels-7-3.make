@@ -63,6 +63,7 @@ projects[cpn] = 1.7
 projects[views_bootstrap] = 3.2
 projects[taxonomy_bootstrap_accordion] = 1.0
 projects[menu_attributes] = 1.0
+projects[animate_css] = 1.42
 
 ; modules seo & marketing
 projects[google_tag] = 1.3
@@ -114,3 +115,9 @@ libraries[rrssb][download][type]= "git"
 libraries[rrssb][download][url] = "https://github.com/AdamPS/rrssb-plus.git"
 libraries[rrssb][destination] = "libraries"
 libraries[rrssb][directory_name] = "rrssb-plus"
+
+; Animate CSS
+libraries[rrssb][download][type]= "git"
+libraries[rrssb][download][url] = "https://github.com/daneden/animate.css.git"
+libraries[rrssb][destination] = "libraries"
+libraries[rrssb][directory_name] = "animate"
