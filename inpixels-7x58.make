@@ -66,7 +66,7 @@ projects[animate_css] = 1.42
 
 ; modules seo & marketing
 projects[google_tag] = 1.3
-projects[dataLayer] = 1.1
+projects[datalayer] = 1.x-dev
 projects[metatag] = 1.22
 projects[rrssb] = 2.3
 projects[xmlsitemap] = 2.3
