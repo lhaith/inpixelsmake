@@ -23,6 +23,7 @@ projects[token_filter] = 1.x-dev
 projects[module_filter] = 2.1
 projects[context] = 3.7
 projects[rules] = 2.10
+projects[entity_rules] = 1.0-alpha4
 projects[navbar] = 1.7
 
 ; content structure
@@ -33,8 +34,11 @@ projects[views] = 3.18
 
 ; user content
 projects[set_front_page] = 1.0
+projects[flexslider] = 2.0-rc2
 projects[ckeditor] = 1.18
 projects[ckeditor_widgets] = 1.0-alpha3
+projects[ckeditor_image] = 1.2
+projects[ckeditor_plain_summary] = 1.0
 projects[linkit] = 3.5
 projects[imageblock] = 1.3
 projects[entityform] = 2.0-rc4
@@ -109,3 +113,9 @@ libraries[rrssb][download][type]= "git"
 libraries[rrssb][download][url] = "https://github.com/daneden/animate.css.git"
 libraries[rrssb][destination] = "libraries"
 libraries[rrssb][directory_name] = "animate"
+
+; FlexSlider
+libraries[rrssb][download][type]= "git"
+libraries[rrssb][download][url] = "https://github.com/woocommerce/FlexSlider.git"
+libraries[rrssb][destination] = "libraries"
+libraries[rrssb][directory_name] = "flexslider"
