@@ -42,7 +42,7 @@ projects[ckeditor_plain_summary] = 1.0
 projects[linkit] = 3.5
 projects[imageblock] = 1.3
 projects[entityform] = 2.0-rc4
-projects[cloudinary] = 1.2
+projects[cloudinary] = 1.3
 projects[disqus] = 1.12
 projects[oembed] = 1.x-dev
 
@@ -93,7 +93,7 @@ libraries[modernizr][directory_name] = "modernizr"
 ; Cloudinary PHP SDK
 libraries[cloudinary][download][type]= "git"
 libraries[cloudinary][download][url] = "https://github.com/cloudinary/cloudinary_php.git"
-libraries[cloudinary][download][tag] = "1.0.17"
+libraries[cloudinary][download][tag] = "1.9.0"
 libraries[cloudinary][directory_name] = "cloudinary"
 
 ; Font Awesome
