@@ -98,7 +98,7 @@ libraries[cloudinary][directory_name] = "cloudinary"
 
 ; Font Awesome
 libraries[fontawesome][download][type]= "get"
-libraries[fontawesome][download][url] = "https://github.com/FortAwesome/Font-Awesome/archive/master.zip"
+libraries[fontawesome][download][url] = "https://fontawesome.com/v4.7.0/assets/font-awesome-4.7.0.zip"
 libraries[fontawesome][destination] = "libraries"
 libraries[fontawesome][directory_name] = "fontawesome"
 
