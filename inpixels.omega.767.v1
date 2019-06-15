@@ -28,6 +28,8 @@ projects[navbar] = 1.7
 
 ; content structure
 projects[features] = 2.11
+projects[fieldblock] = 1.4
+projects[field_group] = 1.6
 projects[entity] = 1.9
 projects[entityreference] = 1.5
 projects[views] = 3.23
@@ -48,16 +50,15 @@ projects[oembed] = 1.x-dev
 
 ; styling
 projects[fences] = 1.2
-projects[field_group] = 1.6
 projects[field_formatter_settings] = 1.1
 projects[field_formatter_class] = 1.2
 projects[block_class] = 2.4
-projects[fieldblock] = 1.4
 projects[fontyourface] = 2.8
 projects[fontawesome] = 2.9
 projects[linkicon] = 1.2
 projects[icon] = 1.0
 projects[ckeditor_filter] = 1.2
+projects[css_injector] = 1.x-dev
 projects[cpn] = 1.7
 projects[taxonomy_bootstrap_accordion] = 1.0
 projects[floating_block] = 1.3
@@ -71,6 +72,7 @@ projects[metatag] = 1.25
 projects[rrssb] = 2.3
 projects[xmlsitemap] = 2.6
 projects[pathauto] = 1.x-dev
+projects[globalredirect] = 1.6
 projects[redirect] = 1.0-rc3
 
 ; libraries
