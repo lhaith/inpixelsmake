@@ -8,7 +8,7 @@ projects[drupal][download][url] = "https://github.com/omega8cc/7x/archive/7.67.t
 
 ; themes
 projects[adminimal_theme] = 1.26
-projects[bootstrap] = 3.25
+projects[bootstrap] = 3.26
 projects[ztheme] = 2.5
 projects[tweme] = 3.0-beta5 
 
@@ -67,6 +67,7 @@ projects[animate_css] = 1.42
 
 ; modules seo & marketing
 projects[google_tag] = 1.4
+projects[google_analytics] = 2.6
 projects[datalayer] = 1.x-dev
 projects[metatag] = 1.25
 projects[rrssb] = 2.3
